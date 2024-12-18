@@ -25,7 +25,7 @@ const App = () => {
       }
     };
     fetchMovies();  
-  }, []);
+  }, []); 
 
   const handleSearchChange = (term) => { 
     setSearchTerm(term);
